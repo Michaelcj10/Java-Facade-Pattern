@@ -1,4 +1,6 @@
-
+/*
+Class creates a simple facade pattern to simplify Math class
+ */
 public class Facade {
 
     public double getAbsoluteValue(double passedValue)
@@ -34,5 +36,6 @@ public class Facade {
         System.out.println(o.squareRootIt(16));
         System.out.println(o.squareIt(2, 5));
         System.out.println(o.roundIt(2.555555));
+        System.out.println("Program Complete");
     }
 }
